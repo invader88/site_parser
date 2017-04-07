@@ -1,5 +1,5 @@
 #The program parses the news from the news portal "Globo.com" and returns the news titles one by one to the user. 
-#After starting the program, user needs to press the button (made with Tkinter) to get the news.
+#After starting the program, user needs to press the button (made with Tkinter) to get the news (the results are returned in tkinter messagebox).
 from lxml import html
 import requests
 from bs4 import BeautifulSoup
